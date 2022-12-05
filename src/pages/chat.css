@@ -1,0 +1,116 @@
+.chats{
+    padding: 1em 6em;
+}
+.chat{
+    display: flex;
+
+}
+.chat-h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #0A535A;
+    margin-bottom: 1em;
+    
+}
+.chat-1{
+    height: 550px;
+    width: 50%;
+}
+.chat-2{
+    background-image: url(/src/pages/img/form.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 50%;
+}
+form{
+    background: #0A535A;
+    height: 90%;
+     width: 85%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+    
+}
+.mail{
+    height: 82%;
+    width: 100%;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+textarea{
+    padding: 1em 0 0 1em;
+    font-weight: 400;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 8px;
+    height: 170px;
+    border: none;
+}
+.mail input{
+    padding-left: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    /* height: 50px; */
+}
+
+.chat-2 form button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 60px;
+    width: 140px;
+    border: none;
+    margin-right: 1em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #276D65;
+}
+.chat-1 div{
+    /* border: 2px solid red; */
+}
+.text{
+    width: 85%;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222222;
+}
+.text-txt h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #0A535A;
+}
+.text-txt p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.text-txt{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.location, .phone, .email-form{
+    display: flex;
+    margin: 16px 0;
+    justify-content: space-between;
+
+
+}

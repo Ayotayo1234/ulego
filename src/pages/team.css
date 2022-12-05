@@ -1,0 +1,87 @@
+.team{
+    padding:1em 4em;
+}
+
+.team-h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #0A535A;
+    margin-left: 1.5em;
+}
+.name{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #ffffff;
+    
+}
+.teams1{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+.the-team img{
+    width: 10em;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* top: 2.5em; */
+}
+.the-team{
+    margin-bottom: 2em;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-info{
+   width: 100%;
+   height: 260px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 3em 0 2em 0;
+   background: #0A535A;
+    border-radius: 24px 24px 0px 0px;
+}
+.comment{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.post{
+    font-weight: 400;
+    font-size: 24px;
+    color: #02EC87;
+}
+.media{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background: #02EC87;
+}
+.facebook{
+    
+    background-image: url(/src/pages/img/facebook.svg);
+    width: 24px;
+    height: 24px;
+}
+.linkedin{
+    background-image: url(/src/pages/img/linkedin.svg);
+    width: 24px;
+    height: 24px;
+}
+.twitter{
+    background-image: url(/src/pages/img/twitter.svg);
+    width: 24px;
+    height: 24px;
+}

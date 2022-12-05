@@ -1,0 +1,29 @@
+.navbar{
+    background: rgb(255, 255, 255);
+    color: black;
+    height: 10vh;
+    border-bottom: 2px solid #02EC87;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4em;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    /* height: 10vh; */
+    /* align-items: center; */
+}
+.nav-item a{
+    background: green;
+   text-decoration: none;
+   color: white;
+}
+.nav-item{
+    margin-left: 2em;
+    height: 10vh;
+    display: flex;
+    /* height: 10vh; */
+    align-items: center;
+    
+}

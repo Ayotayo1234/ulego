@@ -1,0 +1,93 @@
+
+.faq-div{
+    background-color: #ffffff;
+    padding-bottom: 20em;
+}
+.faq-txt{
+    padding-left: 6em;
+}
+ .txt1{
+    color: #0A535A;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+.txt2{
+    font-weight: 400;
+font-size: 20px;
+}
+.faqs {
+    width: 100%;
+    max-width: 1100PX;
+    margin-left: 4em ;
+    padding: 15px;
+    /* background-color: green; */
+}
+.faqs .faq {
+    margin: 15px;
+    padding: 15px;
+    background-color: #FFF;
+    border-radius: 16px;
+    border: 2px solid #02EC87;
+    cursor: pointer;
+}
+.faqs .faq .faq-question{
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0A535A;
+    transition: all 0.4s ease ;
+    padding-left: 3em;
+}
+.faqs .faq .faq-question::before{
+    content: '';
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 48px;
+    background-image: url(/src/pages/faq/images/search.svg);
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.faqs .faq .faq-question::after{
+    content: '';
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width:12px;
+    height:12px;
+    background-image: url(/src/pages/faq/images/down-arrow-svgrepo-com.svg);
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+}
+.faqs .faq .faq-answer{
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    padding-left: 3em;
+    transition: all 0.4s ease;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #084046;
+
+}
+.faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+}
+.faqs .faq.open .faq-question::after{
+  transform: translateY(-50%) rotate(180deg);
+}
+.faqs .faq.open .faq-answer{
+    max-height: 1000px;
+    opacity: 1;
+}
